@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homework_13</title>
+    <link rel="stylesheet" href='style.css'>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+</head>
+
+<body>
+    <nav id="nav_first" class="nav">
+        <form name="form__name" class="form_name__style">
+            <input type="button" name="editBtn" value="Edit">
+            <input type="button" name="bollBtn" value="B">
+            <input type="button" name="italicBtn" value="I">
+            <input type="button" name="decorationBtn" value="U">
+            <select id="font__size__select">
+                <option>7pt</option>
+                <option>8pt</option>
+                <option>9pt</option>
+                <option>10pt</option>
+                <option>11pt</option>
+                <option>12pt</option>
+                <option>14pt</option>
+                <option>16pt</option>
+                <option>18pt</option>
+                <option>20pt</option>
+                <option>30pt</option>
+                <option>40pt</option>
+            </select>
+            <select id="font__family__select">
+                <option>Georgia</option>
+                <option>Times New Roman</option>
+                <option>Arial</option>
+                <option>Helvetica</option>
+                <option>Comic Sans MS</option>
+                <option>Tahoma</option>
+                <option>Verdana</option>
+                <option>Geneva</option>
+                <option>Trebuchet MS</option>
+                <option>Impact</option>
+                <option>Charcoal</option>
+                <option>Gadget</option>
+            </select>
+            <input type="button" name="colorText_Block_Btn" value="Color">
+            <input type="button" name="colorBackground_Block_Btn" value="Background">
+            <input name="radioBtn" type="radio" value="left" checked><span for="left__radio">left</span>
+            <input name="radioBtn" type="radio" value="center"><span for="center__radio">center</span>
+            <input name="radioBtn" type="radio" value="right"><span for="right__radio">right</span>
+        </form>
+    </nav>
+
+
+    <nav id="nav_second" class="nav">
+        <form name="edit__form" class="form_name__style__edit">
+            <input type="button" name="saveBtn" value="Save">
+            <input type="button" name="createTableBtn" value="Create Table">
+            <input type="button" name="createListBtn" value="Create List">
+        </form>
+    </nav>
+
+    <main class="main_block"></main>
+
+    <div class="edit_block">
+        <textarea class="text_area__style"></textarea>
+    </div>
+
+    <div id="tableConstructorBlock">
+        <table>
+            <tr>
+                <td>Кількість рядків:</td>
+                <td>
+                    <input id="number_of__rows" type="text" value="10">
+                </td>
+                <td>Кількість стовбців:</td>
+                <td>
+                    <input id="number_of__column" type="text" value="10">
+                </td>
+            </tr>
+            <tr>
+                <td>Ширина:</td>
+                <td>
+                    <input id="valueWidth__Border" type="text" value="10">
+                </td>
+                <td>Висота:</td>
+                <td>
+                    <input id="valueHeight__Border" type="text" value="10">
+                </td>
+            </tr>
+            <tr>
+                <td>cellspacing</td>
+                <td>
+                    <input id="cellspacing" type="text" value="10">
+                </td>
+            </tr>
+            <tr>
+                <td>Товщина рамки:</td>
+                <td>
+                    <input id="sizeOfBorder" type="text" value="2">
+                </td>
+                <td>Колір рамки:</td>
+                <td>
+                    <input id="borderColor" type="text" value="black">
+                </td>
+            </tr>
+            <tr id="table__buttons__center">
+                <td colspan="2">
+                    <input id="cast__Back__Btn" type="button" value="Скинути">
+                </td>
+                <td colspan="2">
+                    <input id="create__Table__Btn" type="button" value="Створити">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="listConstructorBlock">
+        <table>
+            <tr>
+                <td>Тип списку:</td>
+                <td class="widht_style">
+                    <input class="list__constructor" id="ol_list" type="radio" value="ol" name="list">ol
+                </td>
+                <td class="widht_style">
+                    <input class="list__constructor" id="ul_list" type="radio" value="ul" name="list">ul
+                </td>
+            </tr>
+            <tr>
+                <td>Тип маркера:</td>
+                <td>
+                    <select id="ol__item__list">
+                        <option>1</option>
+                        <option>a</option>
+                        <option>A</option>
+                        <option>i</option>
+                        <option>I</option>
+                        <option>none</option>
+                    </select>
+                    <select id="ul__item__list">
+                        <option>Circle</option>
+                        <option>disc</option>
+                        <option>square</option>
+                        <option>none</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Кількіть айтемів:</td>
+                <td colspan="2">
+                    <input id="numberOfItems" type="text" value="5">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="list__cast__Back__Btn" type="button" value="Скинути">
+                </td>
+                <td>
+                    <input id="create__list__Btn" type="button" value="Створити">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

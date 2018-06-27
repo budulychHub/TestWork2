@@ -1,0 +1,169 @@
+body {
+            margin: 0;
+            padding: 0;
+            width: 1366px;
+        }
+        .nav {
+            width: 100%;
+            background: linear-gradient(to bottom, #d6d6d8 0%, #fdfcff 51%, #d6d6d8 100%);
+        }
+        .form_name__style {
+            width: 57%;
+            padding: 2% 0;
+            margin-left: 25%;
+            margin-right: 18%;
+        }
+        .form_name__style__edit {
+            width: 24%;
+            padding: 2% 0;
+            margin: auto;
+        }
+        .main_block {
+            width: 96%;
+            height: 500px;
+            padding: 2%;
+        }
+        .edit_block {
+            width: 100%;
+        }
+        .text_area__style {
+            width: 100%;
+            resize: none;
+            height: 500px;
+        }
+
+        .mainColorBlock {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border: 1px solid green;
+            padding: 7px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0px 0px 2px 2px #000;
+            display: none;
+            margin: auto;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        .color__child__blocks__style {
+            float: left;
+            width: calc(100%/3);
+            height: calc(100%/3);
+        }
+
+
+        .mainBackgroundColorBlock {
+            position: absolute;
+            height: 240px;
+            width: 200px;
+            border: 1px solid green;
+            padding: 7px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0px 0px 2px 2px #000;
+            display: none;
+            margin: auto;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+        
+        #con1 {
+            width: 200px;
+            height: 200px;
+        }
+
+        #mainImgBlock {
+            width: 400px;
+            height: 200px;
+        }
+        #mainImgBlock:hover {
+        /*    opacity: 0.2;*/
+
+        }
+
+        .colorBackground__child__blocks__style {
+            float: left;
+            width: calc(100%/3);
+            height: calc(100%/3);
+            background-size: 100% 100%;
+            opacity: 0.5;
+        }
+
+        .colorBackground__child__blocks__style:hover{
+            opacity: 1;
+        }
+
+        #tableConstructorBlock {
+            border: 1px solid black;
+            position: absolute;
+            width: 500px;
+            height: 170px;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: #fff;
+        }
+        #table__buttons__center {
+            text-align: center;
+        }
+
+        #listConstructorBlock {
+            border: 1px solid black;
+            position: absolute;
+            width: 220px;
+            height: 170px;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: #fff;
+        }
+        #numberOfItems {
+            width: 90%;
+        }
+        .widht_style {
+            width: 100px;
+            display: block;
+        }
+
+        .btn__style {
+            background-color: #db6f18;
+            border-radius: 10px;
+            width: 70px;
+            padding: 3px 0;
+            height: 30px;
+            box-shadow: 0px 2px 0px 0px #000;
+            border: 1px solid black;
+        }
+        .btn__style:hover {
+            background-color: #00e9ff;
+            transition: 1s;
+        }
+        .select__style {
+            background-color: #5998a1;
+            border-radius: 10px;
+            width: 70px;
+            padding: 3px 0;
+            height: 30px;
+            box-shadow: 0px 2px 0px 0px #000;
+            border: 1px solid black;
+            font-size: 11px;
+        }
+        .select__style:hover {
+            background-color: #00e9ff;
+            transition: 1s;
+        }
+
+        .box__style {
+            border-radius: 15px;
+            box-shadow: 0px 0px 2px 2px #000;
+        }
